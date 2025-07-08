@@ -62,6 +62,7 @@ gcc main.c -o gestion_etudiants -D__LINUX__
 ```
 🔧 Vous devrez supprimer ou remplacer les fonctions spécifiques à Windows (getch(), system("cls")) si vous utilisez Linux ou macOS.
 ## 📌 Recommandations
+
 - Toujours sauvegarder les données (etudiants.txt) avant de quitter.
--Ne pas dépasser 8 matières (limite définie dans le code).
--L’ID de l’étudiant doit être unique.
+- Ne pas dépasser 8 matières (limite définie dans le code).
+- L’ID de l’étudiant doit être unique.
