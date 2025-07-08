@@ -1,1 +1,34 @@
-# Gestionnaire-Etudiants
+# 📚 Système de Gestion des Étudiants en C
+
+Un projet complet en langage C permettant de gérer une base de données d'étudiants avec des fonctionnalités avancées telles que la recherche, la modification, la suppression, le tri, le calcul de moyennes et la génération de rapports académiques.
+
+## 🚀 Fonctionnalités
+
+- 📄 Création d'une nouvelle liste d'étudiants
+- ➕ Ajout de nouveaux étudiants
+- 🔍 Recherche par ID, nom, prénom ou âge
+- ✏️ Modification d'un étudiant (nom, prénom, âge ou notes)
+- ❌ Suppression sécurisée avec confirmation
+- 📊 Génération de rapport individuel avec moyenne et mention
+- 📈 Résumé académique de toute la classe (moyennes, stats, classement)
+- 💾 Sauvegarde automatique dans un fichier texte
+- 💡 Utilisation d’une **table de hachage** pour des recherches rapides
+- 📁 Chargement/sauvegarde des données via des fichiers (`.txt`, `.bin`)
+
+## 🧠 Concepts abordés
+
+- Structures (`struct`)
+- Fichiers (`fopen`, `fread`, `fwrite`, `fprintf`, etc.)
+- Manipulation de chaînes (`fgets`, `strcspn`, `toupper`, etc.)
+- Table de hachage avec chaînes de collision
+- Algorithme de tri (QuickSort)
+- Allocation dynamique (`malloc`, `free`)
+
+## 🏗️ Architecture du projet
+
+```plaintext
+.
+├── main.c                  # Fichier principal
+├── etudiants.txt           # Fichier texte contenant les données des étudiants
+├── matieres.bin            # Fichier binaire contenant les matières et coefficients
+└── resume_academique.txt   # Rapport académique de la classe généré automatiquement
