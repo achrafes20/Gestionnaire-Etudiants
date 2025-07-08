@@ -44,4 +44,24 @@ Un projet complet en langage C permettant de gérer une base de données d'étud
 7. Afficher un résumé académique
 0. Quitter
 ```
+## ⚙️ Compilation
+Sous Windows (avec GCC - MinGW) :
+```bash
+gcc main.c -o gestion_etudiants
+```
+```bash
+gestion_etudiants.exe
+```
 
+Sous Linux (remplacer conio.h) :
+```bash
+gcc main.c -o gestion_etudiants -D__LINUX__
+```
+```bash
+./gestion_etudiants
+```
+🔧 Vous devrez supprimer ou remplacer les fonctions spécifiques à Windows (getch(), system("cls")) si vous utilisez Linux ou macOS.
+## 📌 Recommandations
+- Toujours sauvegarder les données (etudiants.txt) avant de quitter.
+-Ne pas dépasser 8 matières (limite définie dans le code).
+-L’ID de l’étudiant doit être unique.
