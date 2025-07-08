@@ -32,3 +32,16 @@ Un projet complet en langage C permettant de gérer une base de données d'étud
 ├── etudiants.txt           # Fichier texte contenant les données des étudiants
 ├── matieres.bin            # Fichier binaire contenant les matières et coefficients
 └── resume_academique.txt   # Rapport académique de la classe généré automatiquement
+```
+## 📷 Aperçu du menu (console)
+```plaintext
+1. Creer une nouvelle liste d'etudiants (l'ancienne liste va être supprimée !)
+2. Ajouter un étudiant
+3. Supprimer un étudiant
+4. Modifier un étudiant
+5. Rechercher un étudiant
+6. Générer un rapport pour un étudiant
+7. Afficher un résumé académique
+0. Quitter
+```
+
